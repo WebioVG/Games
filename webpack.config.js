@@ -7,6 +7,7 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 }
 
 Encore
+    .enableReactPreset()
     .enablePostCssLoader()
     // directory where compiled assets will be stored
     .setOutputPath('public/build/')
